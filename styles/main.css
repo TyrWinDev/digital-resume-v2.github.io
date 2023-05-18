@@ -112,6 +112,8 @@ li{
 
 #wrapper--techstack__items{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 1em;
     font-size: 0.9em;
@@ -122,6 +124,12 @@ li{
     border-radius: 5px;
     padding: 0.5em 1em;
     align-items: center;
+}
+
+.card--techstack:hover {
+    background-color: var(--mainBorderColor);
+    color: var(--mainTextColor);
+    transition: 0.3s;
 }
 
 .card--project{
